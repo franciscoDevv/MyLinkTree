@@ -1,0 +1,169 @@
+body {
+	background-color: #130F40;
+	font-family: 'K2D', sans-serif;
+}
+
+.text {
+	margin: auto;
+	text-align: center;
+	line-height: 10px;
+	color: #FFFFFF;
+	font-weight: 1px;
+}
+
+h1 {
+	font-weight: 1px;
+}
+
+.logo {
+	margin: auto;
+}
+
+.logo img {
+	height: 174px;
+	margin-top: 85px;
+	border-radius: 1000px;
+}
+
+.proyects {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFF;
+}
+
+.gh {
+	transition: .8s;
+	margin-top: 70px;
+	background-color: #171515;
+	color: white;
+ 	width: 720px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	height: 92px;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio {
+	transition: .8s;
+	margin-top: 30px;
+	background-color: #22A6B3;
+	color: white;
+ 	width: 720px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	height: 92px;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.discord {
+	transition: .8s;
+	margin-top: 30px;
+	background-color: #7289DA;
+	color: white;
+ 	width: 720px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	height: 92px;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.twitter {
+	transition: .8s;
+	margin-top: 30px;
+	background-color: #2563EB;
+	color: white;
+ 	width: 720px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	height: 92px;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.instagram {
+	transition: .8s;
+	margin-top: 30px;
+	background-color: red;
+	background: linear-gradient(89.41deg, #F09433 -4.46%, #DC2743 51.28%, #BC1888 101.28%);
+	color: white;
+ 	width: 720px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	height: 92px;
+ 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 	margin-bottom: 50px;
+}
+
+
+.gh:hover {
+	transition: .8s;
+	transform: scale(1.05)
+}
+
+.portfolio:hover {
+	transition: .8s;
+	transform: scale(1.05)
+}
+
+.discord:hover {
+	transition: .8s;
+	transform: scale(1.05)
+}
+
+.twitter:hover {
+	transition: .8s;
+	transform: scale(1.05)
+}
+
+.instagram:hover {
+	transition: .8s;
+	transform: scale(1.05)
+	
+}
+.flex {
+	display: flex;
+ 	padding-left: 7px;
+	flex-direction: row;
+	align-items: center;
+}
+
+.text2 {
+	margin-left: 10px;
+	line-height: 2px;
+}
+
+i {
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gh {
+  	width: 330px;
+  }
+  .portfolio {
+  	width: 330px;
+  }
+  .discord {
+  	width: 330px;
+  }
+  .twitter {
+  	width: 330px;
+  }
+  .instagram {
+  	width: 330px;
+  }
+}
